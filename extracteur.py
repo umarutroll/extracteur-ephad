@@ -44,8 +44,8 @@ def analyser_et_log(df, nom_feuille):
     log = f"{nom_feuille} : {lignes_utiles} lignes utiles exportées.\n"
     if df.isnull().any().any():
         log += f"  ⚠ Contient des valeurs manquantes.\n"
-    if "Année" in df.columns:
-        if df["Année"].min() < 2020 or df["Année"].max() > 2026:
+    if "Annee" in df.columns:
+        if df["Annee"].min() < 2022 or df["Annee"].max() > 2026:
             log += f"  ⚠ Années hors limites [2020-2026].\n"
     log += "\n"
     return log, lignes_utiles
