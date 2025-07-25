@@ -5,7 +5,7 @@ Application Streamlit pour exporter des feuilles Excel
 
 
 
-**Période de travail** : 23 juillet 2025 pendant mon stage de fin d'étude se finissant le 15 décembre 2025, dans une société possédant plusieurs E^had dont j'étais chargé de construire un de pilotage financier. 
+**Période de travail** : 23 juillet 2025 pendant mon stage de fin d'étude se finissant le 15 décembre 2025, dans une société possédant plusieurs Ephad dont j'étais chargé de construire un de pilotage financier. 
 
 
 
