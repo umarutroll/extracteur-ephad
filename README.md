@@ -1,7 +1,7 @@
 # extracteur-ephad
-**Application Streamlit pour exporter des feuilles Excel 
+Application Streamlit pour exporter des feuilles Excel 
 
-Période de travail : 23 juillet 2025 pendant mon stage de fin d'étude se finissant le 15 décembre 2025, dans une société possédant plusieurs E^had dont j'étais chargé de construire un de pilotage financier. 
+**Période de travail** : 23 juillet 2025 pendant mon stage de fin d'étude se finissant le 15 décembre 2025, dans une société possédant plusieurs E^had dont j'étais chargé de construire un de pilotage financier. 
 
 Application toujours en cours de réflexion, peut être qu'une généralisation des feuilles extractable sera faite : pouvoir analyser quel feuille est présente dans le excel et choisir laquelle extraire. Peut-etre que le rapport produit en sera donc impacté.
 Langage utilisé : Python
