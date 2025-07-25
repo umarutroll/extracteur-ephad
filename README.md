@@ -2,7 +2,7 @@
 Application Streamlit permettant d'extraire des feuilles Exel de type *historique* et de générer des fichier .xlsm formatés, accompagné d'un rapport d'export automatique 
 
 
-##Objectif : Simplifier la récupération et la préparation de données issus de fichier Excel complexe, pour une utilisation dans Qlik Sense ou tout autre outil de visualisation
+## Objectif : Simplifier la récupération et la préparation de données issus de fichier Excel complexe, pour une utilisation dans Qlik Sense ou tout autre outil de visualisation
 
 
 **Prérequis pour utiliser** : Utilisation local via streamlit ou streamlit cloud
@@ -15,7 +15,7 @@ Application Streamlit permettant d'extraire des feuilles Exel de type *historiqu
 
 
 
-## ⚙ Fonctionnalités
+##  Fonctionnalités
 
 -  **Téléversement d’un fichier** `.xlsm`
 -  **Sélection du type d’export** :
