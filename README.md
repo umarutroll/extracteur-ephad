@@ -1,5 +1,9 @@
 # Extracteur de feuille Excel de type :  Historique
-Application Streamlit pour exporter des feuilles Excel 
+Application Streamlit permettant d'extraire des feuilles Exel de type *historique* et de générer des fichier .xlsm formatés, accompagné d'un rapport d'export automatique 
+
+
+##Objectif : Simplifier la récupération et la préparation de données issus de fichier Excel complexe, pour une utilisation dans Qlik Sense ou tout autre outil de visualisation
+
 
 **Prérequis pour utiliser** : Utilisation local via streamlit ou streamlit cloud
 
@@ -11,14 +15,35 @@ Application Streamlit pour exporter des feuilles Excel
 
 
 
-Application toujours en cours de réflexion, peut être qu'une généralisation des feuilles extractable sera faite : pouvoir analyser quel feuille est présente dans le excel et choisir laquelle extraire. Peut-etre que le rapport produit en sera donc impacté.
-Langage utilisé : Python
+## ⚙ Fonctionnalités
 
+-  **Téléversement d’un fichier** `.xlsm`
+-  **Sélection du type d’export** :
+  - Les 3 feuilles d’historique (`Global`, `Local`, `Projection`)
+  - Ou une seule feuille `Export_Qlik`
+-  **Mise en forme automatique des fichiers Excel générés** :
+  - Largeurs de colonnes ajustées
+  - Formatage des pourcentages
+- **Rapport de synthèse** inclus dans un fichier `log_export.txt`
 
+---
 
+##  Évolutions envisagées
 
+- Détection automatique des feuilles présentes dans le fichier
+- Interface plus flexible avec extraction **à la carte**
+- Rapport enrichi (type de valeurs manquantes, analyse plus poussée)
 
-Application permettant d'extraire une feuille historique defini d'un excel, et de l'obtenir dans un nouvel excel avec un rapport d'analyse succint.
+---
+
+##  Technologies utilisées
+
+- Python
+- Streamlit
+- Pandas
+- XlsxWriter
+- openpyxl
+
 
 
 <img width="1126" height="575" alt="image" src="https://github.com/user-attachments/assets/411c894a-daa1-48b1-9648-1580708ac000" />
