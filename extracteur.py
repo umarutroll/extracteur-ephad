@@ -94,7 +94,7 @@ if uploaded_file:
         # Sélection multiple des feuilles à exporter
         feuilles_cibles = st.multiselect(
             "Sélectionnez les feuilles à exporter :",
-            options=["Historique_Global", "Historique_Local", "Historique_Projection", "Export_Qlik"],
+            options=["Historique_Global", "Historique_Local", "Historique_Projection","Historique_Hébergement","Historique_Journee","Historique_Occupation", "Export_Qlik"],
             default=["Export_Qlik"]
         )
 
@@ -159,3 +159,4 @@ if uploaded_file:
 # -------- Pied de page --------
 st.markdown("---")
 st.caption("Développé par Rémy Laguerre – CY Tech – Stage Pilotage Financier – Juillet 2025")
+
